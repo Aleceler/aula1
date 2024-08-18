@@ -7,7 +7,7 @@ const Avo = () => {
   return (
     <>
       <h1>Componente Avo</h1>
-      <Pai presente={presente} />
+      <Pai presente={presente} alteraPresente={setPresente} />
     </>
   );
 };
